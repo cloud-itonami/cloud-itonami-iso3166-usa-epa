@@ -6,5 +6,5 @@
   :head-role-note "institutional office title only; personal names of current office-holders are intentionally NOT stored"
   :contact-page "https://www.epa.gov/aboutepa/epa-organization-chart"
   :sourced-from "official public contact page"
-  :hq {:line-en "1200 Pennsylvania Avenue NW, Washington, DC 20460" :line-local "1200 Pennsylvania Avenue NW, Washington, DC 20460" :postal-code "20460" :country "usa" :phone "1-202-564-4700" :kind "headquarters" :provenance "https://www.epa.gov/aboutepa/visiting-epa-headquarters" :last-verified "2026-07-10" :sourcing "official-site-public"}
+  :hq {:line-en "1200 Pennsylvania Avenue NW, Washington, DC 20460" :line-local "1200 Pennsylvania Avenue NW, Washington, DC 20460" :postal-code "20460" :phone "1-202-564-4700" :kind "headquarters" :provenance "https://www.epa.gov/aboutepa/visiting-epa-headquarters" :last-verified "2026-07-10" :sourcing "official-site-public" :country "usa"}
 }
