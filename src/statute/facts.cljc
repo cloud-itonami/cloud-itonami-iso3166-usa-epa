@@ -84,7 +84,7 @@
   Extending. A regulation not in this table has NO spec-basis, full stop.
   Extend `catalog` with a real, API-confirmed citation; never invent an id,
   a URL, or a label."
-  (:require [clojure.string :as str]))
+  (:require [kotoba.lang.text :as str]))
 
 (def ecfr-structure-api
   "eCFR versioner structure endpoints these entries were verified against.
