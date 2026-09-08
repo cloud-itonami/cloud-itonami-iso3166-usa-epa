@@ -10,7 +10,7 @@
   than pass vacuously. A suite that goes green on an empty catalog measures
   nothing."
   (:require [clojure.test :refer [deftest testing is]]
-            [clojure.string :as str]
+            [kotoba.lang.text :as str]
             [statute.facts :as f]))
 
 (def iso "USA-EPA")
