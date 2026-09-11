@@ -1,7 +1,7 @@
 (ns statute.facts-test
   "Offline invariants for the USA-EPA compliance catalog.
 
-  These complement `tools/verify_citations.cljs`, which is the LIVE gate and
+  These complement `tools/verify_citations.cljk`, which is the LIVE gate and
   needs network. Nothing here re-checks the eCFR; these tests pin the shape and
   the substantive claims, so that a later edit cannot quietly drop the finding
   this catalog exists to carry.

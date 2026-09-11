@@ -17,7 +17,7 @@
   ;; Confirms every catalog citation and every absence `see-instead` EXISTS
   ;; byte-exactly, and that every recorded absent part is still absent.
   ;; Exit 0 verified / 1 drifted / 2 could-not-answer.
-  ;;   nbb tools/verify_citations.cljs
+  ;;   nbb tools/verify_citations.cljk
   :lint {:replace-deps {clj-kondo/clj-kondo {:mvn/version "2024.11.14"}}
          :main-opts ["-m" "clj-kondo.main"
                      "--lint" "src" "test"
