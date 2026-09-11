@@ -76,12 +76,12 @@ Two, and they check different things. Neither can pass by accident.
 ```bash
 # offline: shape and substance. Fails if the catalog is emptied, if an entry
 # loses its hat, if the DBE trap stops being marked, or if README counts drift.
-clojure -M:test
+kbb -M:test
 
 # live: re-fetches the eCFR API. Confirms every citation byte-exactly AND that
 # every part recorded as absent is still absent.
 #   exit 0 verified / 1 drifted / 2 could-not-answer
-nbb tools/verify_citations.cljk
+kbb --backend sci tools/verify_citations.cljk
 ```
 
 The live gate refuses to report a pass it did not earn. A run that reached zero
