@@ -15,7 +15,7 @@
   stable unit that was independently confirmed. Nothing here is fabricated:
   each `:statute/verified-label` below is the byte-exact `label_description`
   returned by the eCFR versioner API on `:statute/verified-at`, and
-  `tools/verify_citations.cljs` re-fetches that API and fails if any label
+  `tools/verify_citations.cljk` re-fetches that API and fails if any label
   drifts.
 
   Why the citation and the verification URL differ. `:statute/url` is the

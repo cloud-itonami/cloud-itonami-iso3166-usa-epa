@@ -10,7 +10,7 @@ navigating **Environmental Protection Agency**-specific public-procurement / reg
 
 ## The catalog
 
-`src/statute/facts.cljc` carries **30 citations** and **4 checked absences** for
+`src/statute/facts.cljk` carries **30 citations** and **4 checked absences** for
 `USA-EPA`, every one of them confirmed against the official eCFR versioner API
 rather than transcribed from a secondary source. Each entry records the
 byte-exact `label_description` the API returned, the date it returned it, and
@@ -81,7 +81,7 @@ clojure -M:test
 # live: re-fetches the eCFR API. Confirms every citation byte-exactly AND that
 # every part recorded as absent is still absent.
 #   exit 0 verified / 1 drifted / 2 could-not-answer
-nbb tools/verify_citations.cljs
+nbb tools/verify_citations.cljk
 ```
 
 The live gate refuses to report a pass it did not earn. A run that reached zero
