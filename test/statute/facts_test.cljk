@@ -9,7 +9,7 @@
   Every test below is written so that emptying the catalog makes it FAIL rather
   than pass vacuously. A suite that goes green on an empty catalog measures
   nothing."
-  (:require [clojure.test :refer [deftest testing is]]
+  (:require [kotoba.test :refer [deftest testing is]]
             [kotoba.lang.text :as str]
             [statute.facts :as f]))
 
